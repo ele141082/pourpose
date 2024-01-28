@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+.py-6 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
 .wrapper {
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -42,6 +48,14 @@
     
 }
 
+.action {
+    display: inline-block;
+    background-color: #273444;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+
 
 .img-purpose {
     width: 120px;
@@ -76,7 +90,10 @@
 }
 
 .header {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 @media screen and (max-width: 992px) {
@@ -114,4 +131,26 @@
 .header-image {
     margin-right: 7vw;
     z-index: -1;
+}
+
+.img {
+    width: 100px;
+}
+
+
+.col-box {
+    position: relative;
+
+}
+
+.col-box::after {
+    position: absolute;
+    transition: all 0.2s;
+    opacity: 400ms;
+    
+
+}
+
+.col-box:focus::after {
+    width: 120%;
 }
