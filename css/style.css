@@ -137,20 +137,29 @@
     width: 100px;
 }
 
-
-.col-box {
-    position: relative;
-
+.span-good {
+    color: #6e00ff;
 }
 
-.col-box::after {
-    position: absolute;
-    transition: all 0.2s;
-    opacity: 400ms;
+.title {
+    color: #3C4858;
+}
+
+
+.paragraph-title {
+    color: #8492A6;
+}
+
+.link {
+    color: #6e00ff;
+}
+
+.list-item {
+    list-style-type: none;
+    display: flex;
     
-
 }
 
-.col-box:focus::after {
-    width: 120%;
+.fas {
+    color: #6e00ff;
 }
