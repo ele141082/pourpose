@@ -164,12 +164,45 @@
     color: #6e00ff;
 }
 
-.fab {
+.fab-size {
     font-size: 1.25rem;
+}
+
+.fab-size-script {
+    font-size: 2.75rem;
 }
 
 .back-color {
     height: 500px;
     margin-top: 2rem;
     background-image: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%);
+}
+
+.img-avatar {
+    width: 50px;
+}
+
+.star {
+    color: yellow;
+}
+
+.card {
+    background-color: #FFF;
+    box-shadow: 0 0.75rem 1.5rem rgba(204, 204, 205, 0.03);
+}
+
+.mt-6 {
+    margin-top: 3rem;
+}
+
+.icon {
+    font-size: 2.75rem;
+}
+
+.dark {
+    background-image: linear-gradient(50deg, #273444 0, #272b44 100%);
+}
+
+.violet {
+    background-color: #6e00ff;
 }
