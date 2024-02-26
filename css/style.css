@@ -160,7 +160,11 @@
     
 }
 
-.fas {
+.fas-violet {
+    color: #9B0DFF;
+}
+
+.fas-color {
     color: #6e00ff;
 }
 
@@ -173,7 +177,7 @@
 }
 
 .back-color {
-    height: 500px;
+    height: 800px;
     margin-top: 2rem;
     background-image: linear-gradient(50deg, #6e00ff 0, #bb00ff 100%);
 }
@@ -200,9 +204,28 @@
 }
 
 .dark {
-    background-image: linear-gradient(50deg, #273444 0, #272b44 100%);
+    background-color: #273444;
 }
 
 .violet {
     background-color: #6e00ff;
+}
+
+.color {
+    color: rgb(255 255 255 / 80%);
+}
+
+.list-footer {
+    list-style-type: none;
+    color: rgb(255 255 255 / 80%);
+    margin-top: 5rem;
+}
+
+.list-footer-item {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
 }
